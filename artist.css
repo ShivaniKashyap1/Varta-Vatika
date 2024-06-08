@@ -1,0 +1,280 @@
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(9, 237, 28) 100%);
+   color: rgb(228, 9, 9);
+   
+}
+.div90 { grid-area: 1 / 1 / 2 / 4;
+    
+    text-align: center;
+    font-family: fantasy;
+    font-style: italic;
+    height: fit-content;
+    color: #81D8D0;
+    margin: 0;
+    
+    }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 15%;
+    color: red;
+    }
+    
+   
+    .div2 { grid-area: 1 / 1 / 2 / 2;
+   
+    border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3%;
+
+ }
+    .div2 img{
+        height: 130px;
+     
+    }
+    .div3 { grid-area: 1 / 2 / 2 / 3; 
+        border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3%;}
+    .div3 img{
+        height: 130px;
+     
+    }
+
+    .div4 { grid-area: 1 / 3 / 2 / 4;
+        border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content; 
+    margin: 3%;}
+    .div4 img{
+        height: 130px;
+     
+    }
+    .div5 img{
+        height: 130px;
+     
+    }
+    .div5 { grid-area: 2 / 1 / 3 / 2;     border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3%;}
+
+    .div6 img{
+        height: 130px;
+     
+    }
+    .div6 { grid-area: 2 / 2 / 3 / 3;     border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3%;}
+
+    .div7 img{
+        height: 130px;
+     
+    }
+    .div7 { grid-area: 2 / 3 / 3 / 4;  
+    border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;
+    margin: 3%;}
+
+    .div8 img{
+        height: 130px;
+     
+    }
+    .div8 { grid-area:3 / 1 / 4 / 2;    border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content; 
+    margin: 3%;
+}
+.div9 img{
+    height: 130px;
+ 
+}
+    .div9 { grid-area:3 / 1 / 4 / 2 ;     border: solid;
+        border-radius: 50%;
+        background-color: aliceblue;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        height: fit-content;
+        width: fit-content;
+        margin: 3%;}
+
+        .div10 img{
+            height: 130px;
+         
+        }
+    .div10 { grid-area:3 / 3 / 4 / 4 ;    border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content
+    margin: 3%;; 
+}
+
+.div11 img{
+    height: 130px;
+ 
+}
+    .div11 { grid-area: 5 / 1 / 6 / 2;     border: solid;
+        border-radius: 50%;
+        background-color: aliceblue;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        height: fit-content;
+        width: fit-content;}
+
+        .div12 img{
+            height: 130px;
+         
+        }
+    .div12 { grid-area: 5 / 2 / 6 / 3;    border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content; }
+
+    .div13 img{
+        height: 130px;
+     
+    }
+    .div13 { grid-area: 5 / 3 / 6 / 4;     border: solid;
+    border-radius: 50%;
+    background-color: aliceblue;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    height: fit-content;
+    width: fit-content;}
+
+    .div4 img{
+        height: 130px;
+     
+    }
+
+    body {
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        color: white;
+    }
+    
+    .div90 {
+        grid-area: 1 / 1 / 2 / 4;
+        font-size: 2rem;
+        text-align: center;
+        font-family: fantasy;
+        font-style: italic;
+        height: fit-content;
+        margin: 0;
+    }
+    
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 5%;
+        color: red;
+    }
+    
+    .parent div {
+        border: solid;
+        border-radius: 50%;
+        background-color: aliceblue;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        height: fit-content;
+        width: fit-content;
+        margin: 3%;
+        position: relative; /* Added position relative for absolute positioning of bouncing effect */
+        overflow: hidden; /* Hides overflowing bouncing effect */
+        animation: bounceAnimation 1s ease-in-out infinite alternate; /* Bouncing animation */
+    }
+    
+    @keyframes bounceAnimation {
+        0% {
+            transform: translateY(0); /* Initial position of the bounce */
+        }
+        100% {
+            transform: translateY(-10px); /* Final position of the bounce */
+        }
+    }
+    
+    .parent div p {
+        margin: 0; /* Remove default margin for <p> */
+    }
+    
+    .parent div img {
+        height: 130px;
+    }
+    .parent div {
+        border: solid;
+        border-radius: 50%;
+        background-color: aliceblue;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        height: fit-content;
+        width: fit-content;
+        margin: 3%;
+        box-shadow: inset 0 0 100px rgba(207, 7, 7, 0.2); /* Inner box shadow effect */
+    }
+    
+    .parent div p {
+        margin: 0; /* Remove default margin for <p> */
+    }
+    
+    .parent div img {
+        height: 130px;
+    }
+    
