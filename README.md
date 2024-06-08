@@ -1,3 +1,4 @@
+![image](https://github.com/ShivaniKashyap1/Varta-Vatika/assets/68801472/e57fdd46-ac3b-4757-99c9-abdc7d7e90bc)
 
 Welcome to **Varta Vatika**, your ultimate destination for indulging in captivating stories and enchanting poems. Dive into a vast collection of literary works from various genres, meticulously curated to provide you with a delightful reading experience.
 
