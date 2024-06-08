@@ -1,0 +1,27 @@
+.wave-container {  
+    height: 40vh;
+    background-color: #20B2AA;
+    position: relative;
+  }
+  
+  .wave-container::before {   
+    content: "";
+    width: 100%;
+    height: 128px;
+    position: absolute;
+    bottom: -0.3%;
+    left: 0;
+    background-size: auto;
+    background-repeat: repeat no-repeat;
+    background-position: 18vw bottom;
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200  124' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 91L50 85C100 80 200 69 300 46C400 24 500 -9 600 2C700 13 800 69 900 91C1000 113 1100 102 1150 97L1200 91V124H1150C1100 124 1000 124 900 124C800 124 700 124 600 124C500 124 400 124 300 124C200 124 100 124 50 124H0V91Z' fill='%23FFF5EE'/></svg>");
+  }
+  
+  @media(max-width:850px) {
+    .wave-container::before {    
+      height: 64px
+    }  
+  }
+  .body{
+    background-color: white;
+  }

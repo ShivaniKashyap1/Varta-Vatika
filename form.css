@@ -1,0 +1,54 @@
+body{
+    
+}
+
+/* form.css */
+
+/* Style for the main block */
+.block1 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #f3eeee;
+    font-size: 1.6rem;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+/* Style for the headings */
+h1 {
+    text-align: center;
+    color: #faf5f5;
+}
+
+/* Style for the form inputs */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Style for the radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Style for the submit button */
+button {
+    padding: 10px 20px;
+    
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}

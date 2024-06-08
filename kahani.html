@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>कहानी के लेखक</title>
+<link rel="stylesheet" href="kahani.css">
+</head>
+<body>
+    <div class="head">लेखक का चयन करें और अपनी पसंदीदा कहानियों का आनंद लें। </div>
+    <div class="parent">
+        <div class="div2">
+            <img src="munshi.png" alt="मुंशी प्रेमचंद">
+            <a href="writer1.html"><button>मुंशी प्रेमचंद</button></a>
+        </div>
+        <div class="div3">
+            <img src="circle-cropped.png" alt="फणीश्वर नाथ रेणु">
+            <a href="writer2.html"><button>फणीश्वर नाथ रेणु</button></a>
+        </div>
+        <div class="div4">
+            <img src="ravindernath.png" alt="रवींद्रनाथ टैगोर">
+            <a href="ravindra.html"><button>रवींद्रनाथ टैगोर</button></a>
+        </div>
+        <div class="div5">
+            <img src="saadat-hasan-manto.png" alt="सआदत हसन मंटो">
+            <a href="sadat_ki_kahani.html"><button>सआदत हसन मंटो</button></a>
+        </div>
+        <div class="div6">
+            <img src="rk narayan.jpg" alt="आर.के. नारायण">
+            <a href=""><button>आर.के. नारायण</button></a>
+        </div>
+        <div class="div7">
+            <img src="ismat-chughtai.png" alt="इस्मत चुगताई">
+            <a href=""><button>इस्मत चुगताई</button></a>
+        </div>
+        <div class="div8">
+            <img src="ruskin_bond.png" alt="रस्किन बॉन्ड">
+            <a href=""><button>रस्किन बॉन्ड</button></a>
+        </div>
+        <div class="div9">
+            <img src="amrita pritam.jpg" alt="अमृता प्रीतम">
+            <a href=""><button>अमृता प्रीतम</button></a>
+        </div>
+        <div class="div10">
+            <img src="Bhisham_Sahni.jpg" alt="भीष्म साहनी">
+            <a href=""><button>भीष्म साहनी</button></a>
+        </div>
+    </div>
+
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Google Form</title>
+    <style>
+        /* Styles for the popup */
+        .popupContainer {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+
+        .popupContent {
+            background-color: #e51616;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #ea1212;
+            width: 80%;
+        }
+
+        .close {
+            color: black;
+            float: right;
+            font-size: 48px;
+            font-weight: bold;
+           
+            border-style:dashed;
+            background-color: white;
+        }
+
+        .close:hover,
+        .close:focus {
+            color:red;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hidden popup container -->
+    <div id="popupContainer" class="popupContainer">
+        <!-- Close button for the popup -->
+        <span class="close" id="closeForm">&times;</span>
+
+        <!-- Embed Google Form -->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddg2UVrJF5Ml2ecmDKsjeTNXlFGdCcpCSh9M8lSBj3576ihg/viewform?embedded=true" width="1600" height="1107" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+
+    <script>
+        // Display the popup when the page is loaded
+        window.onload = function() {
+            document.getElementById("popupContainer").style.display = "block";
+        };
+
+        // Close the popup when the close button is clicked
+        document.getElementById("closeForm").addEventListener("click", function() {
+            document.getElementById("popupContainer").style.display = "none";
+        });
+
+        // Close the popup when clicking outside the popup
+        window.addEventListener("click", function(event) {
+            var popup = document.getElementById("popupContainer");
+            if (event.target == popup) {
+                popup.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+</html>

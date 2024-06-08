@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+.head
+{
+    background-color: #4b6cb7;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: #f9f9f9;
+    
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: 0px; 
+}
+
+.div1 {
+    grid-column: 1 / span 3;
+    background-color: #4b6cb7;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8,
+.div9,
+.div10 {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.div2 img,
+.div3 img,
+.div4 img,
+.div5 img,
+.div6 img,
+.div7 img,
+.div8 img,
+.div9 img,
+.div10 img {
+    width: 60%;
+    height: 70%;
+    object-fit: cover;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b6cb7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+.div2:hover,
+.div3:hover,
+.div4:hover,
+.div5:hover,
+.div6:hover,
+.div7:hover,
+.div8:hover,
+.div9:hover,
+.div10:hover {
+    transform: translateY(-10px);
+}
